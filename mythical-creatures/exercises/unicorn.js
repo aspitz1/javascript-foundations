@@ -1,7 +1,7 @@
 class Unicorn {
   constructor(name, color) {
-    this.name = name;
-    this.color = color || 'white';
+    this.name = name
+    this.color = color || 'white'
   }
   isWhite() {
     return this.color === 'white'
@@ -11,4 +11,4 @@ class Unicorn {
   }
 }
 
-module.exports = Unicorn;
+module.exports = Unicorn
