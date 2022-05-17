@@ -10,7 +10,7 @@ class Dragon {
   }
   eat() {
     this.timesEaten = this.timesEaten + 1
-    if(this.timesEaten === 3){
+    if(this.timesEaten === 3) {
       this.hungry = !this.hungry
     }
   }
