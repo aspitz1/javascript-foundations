@@ -3,9 +3,11 @@ class Unicorn {
     this.name = name
     this.color = color || 'white'
   }
+
   isWhite() {
     return this.color === 'white'
   }
+
   says(catchPhrase) {
     return `**;* ${catchPhrase} *;**`
   }

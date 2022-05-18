@@ -5,9 +5,11 @@ class Dragon {
     this.hungry = true
     this.timesEaten = 0
   }
+
   greet() {
     return `Hi, ${this.rider}!`
   }
+  
   eat() {
     this.timesEaten = this.timesEaten + 1
     if(this.timesEaten === 3) {
