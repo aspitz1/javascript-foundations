@@ -5,6 +5,7 @@ class Vampire {
     this.thirsty = true
     this.ouncesDrank = 0
   }
+  
   drink() {
     if(this.ouncesDrank < 50) {
     this.ouncesDrank = this.ouncesDrank + 10
