@@ -73,9 +73,9 @@ describe("Human", function () {
     human.gatherMaterials('snowballs', 5);
 
     var snowman = human.buildASnowman();
-    
+
     snowman.canWearMagicHat();
-    
+
     human.placeMagicHat();
 
     assert.equal(snowman.magicHat, true);
